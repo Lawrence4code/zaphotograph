@@ -1,3 +1,28 @@
+/*________ FONTS ________*/
+@import url('http://fonts.googleapis.com/css?family=Lato:300, 400, 300italic');
+@import url('http://fonts.googleapis.com/css?family=Maven+Pro:400, 500');
+
+/*________ GENERAL ________*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
-  font-family: 'lato', sans-serif;
+  font-family: Lato, Arial, Calibri, sans-serif;
+  background-color: #dcffdc;
+}
+
+p {
+  line-height: 1.7em;
 }
