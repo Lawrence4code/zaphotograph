@@ -37,17 +37,25 @@ const Header = () => {
         </ul>
       </nav>
 
-      <div className="intro">
-        <div className="container">
-          <div className="intro-headings">
-            <h1>Wallace Crawford</h1>
-            <h4>Professional Photographer</h4>
-          </div>
-
-          <a href="#" className="continue-btn" data-scroll-target=".about">
-            Continue
-          </a>
+      <div className="hero">
+        <div className="hero__headings">
+          <h1>Wallace Crawford</h1>
+          <h4 class="hero__sub-title">
+            <span> Professional </span> <span> Photographer</span>
+          </h4>
         </div>
+      </div>
+
+      <div className="scroll-indicator">
+        <a href="#" className="scroll-down">
+          <span class="scroll-btn">
+            <a href="#">
+              <span class="mouse">
+                <span />
+              </span>
+            </a>
+          </span>
+        </a>
       </div>
     </header>
   );
