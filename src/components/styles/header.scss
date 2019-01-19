@@ -1,7 +1,7 @@
 .header {
   background-image: linear-gradient(
       to bottom,
-      rgba(15, 17, 19, 0.76),
+      rgba(7, 7, 8, 0.795),
       rgba(0, 0, 0, 0.705)
     ),
     url('../../images/bg1.jpg');
@@ -49,7 +49,7 @@ nav ul li a {
   height: 100vh - 50;
   width: 100%;
   position: relative;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
