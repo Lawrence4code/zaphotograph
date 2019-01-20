@@ -40,7 +40,7 @@ nav ul li a {
   transition: color 0.3s ease;
 
   &:hover {
-    color: #86c232;
+    color: #5680e9;
   }
 }
 
@@ -55,7 +55,7 @@ nav ul li a {
 }
 .hero__headings {
   display: inline-block;
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   text-align: center;
 }
@@ -67,9 +67,8 @@ nav ul li a {
 }
 .hero__headings h4 {
   font-size: 1.5em;
-  color: #acacac;
+  color: #a5a5a5;
   text-transform: uppercase;
-  font-family: Lato, Arial, Calibri, sans-serif;
   font-weight: 300;
   letter-spacing: 0.75em;
   word-spacing: 1rem;
@@ -159,4 +158,12 @@ nav ul li a {
     opacity: 0;
     top: 29%;
   }
+}
+
+.something {
+  color: #5680e9;
+  color: #84eccb;
+  color: #5ab9ea;
+  color: #c1c8e4;
+  color: #8860d0;
 }

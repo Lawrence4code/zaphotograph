@@ -40,7 +40,7 @@ const Header = () => {
       <div className="hero">
         <div className="hero__headings">
           <h1>Wallace Crawford</h1>
-          <h4 class="hero__sub-title">
+          <h4 className="hero__sub-title">
             <span> Professional </span> <span> Photographer</span>
           </h4>
         </div>
@@ -48,12 +48,10 @@ const Header = () => {
 
       <div className="scroll-indicator">
         <a href="#" className="scroll-down">
-          <span class="scroll-btn">
-            <a href="#">
-              <span class="mouse">
-                <span />
-              </span>
-            </a>
+          <span className="scroll-btn">
+            <span className="mouse">
+              <span />
+            </span>
           </span>
         </a>
       </div>

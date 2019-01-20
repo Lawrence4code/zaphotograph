@@ -1,6 +1,8 @@
 /*________ FONTS ________*/
 @import url('http://fonts.googleapis.com/css?family=Lato:300, 400, 300italic');
 @import url('http://fonts.googleapis.com/css?family=Maven+Pro:400, 500');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
 
 /*________ GENERAL ________*/
 
@@ -19,8 +21,8 @@ html {
 }
 
 body {
-  font-family: Lato, Arial, Calibri, sans-serif;
-  background-color: #dcffdc;
+  font-family: 'Poppins', sans-serif;
+  background-color: #5abaea2c;
 }
 
 p {
