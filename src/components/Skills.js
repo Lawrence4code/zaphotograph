@@ -7,9 +7,9 @@ const Skills = () => {
   const skillsData = {
     skillTitles: ['Photography', 'Illustrations', 'Editing'],
     stillText: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis felis et velit varius aliquet a non ipsum. Quisque tempus euismod volutpat.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis felis et velit varius aliquet a non ipsum. Quisque tempus euismod volutpat.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis felis et velit varius aliquet a non ipsum. Quisque tempus euismod volutpat.'
+      'I undertake all kind of projects, though I prefer challenging project Family event and New born, as one must ensure to capture all special moments, making people smile is a bonus.',
+      'I do logo desiging and illustration as well with adobe illustration, so checkout my portfolio for samples.',
+      'All the photography projects comes with personalised editing suited and requested as per your needs and occasions. I will ensure you go with complete satisfaction.'
     ]
   };
   console.log(skillsData.skillTitles[1]);
@@ -17,18 +17,22 @@ const Skills = () => {
     <div className="skills">
       <div className="skills__section">
         <div className="skills__content container">
-          <SkillBox
-            skillTitle={skillsData.skillTitles[0]}
-            skillText={skillsData.stillText[0]}
-          />
-          <SkillBox
-            skillTitle={skillsData.skillTitles[1]}
-            skillText={skillsData.stillText[1]}
-          />
-          <SkillBox
-            skillTitle={skillsData.skillTitles[2]}
-            skillText={skillsData.stillText[2]}
-          />
+          <h2 className="section__heading"> Skill </h2>
+
+          <div className="skills__block">
+            <SkillBox
+              skillTitle={skillsData.skillTitles[0]}
+              skillText={skillsData.stillText[0]}
+            />
+            <SkillBox
+              skillTitle={skillsData.skillTitles[1]}
+              skillText={skillsData.stillText[1]}
+            />
+            <SkillBox
+              skillTitle={skillsData.skillTitles[2]}
+              skillText={skillsData.stillText[2]}
+            />
+          </div>
         </div>
       </div>
     </div>
