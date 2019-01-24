@@ -1,0 +1,92 @@
+.projects {
+  &__section {
+    background-color: #d8ebf5;
+  }
+
+  &__heading {
+    color: #325ecc;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 1.5rem 0;
+  }
+
+  &__block {
+    & .projectBox {
+      &:nth-child(1) {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.61),
+            rgba(26, 26, 26, 0.815)
+          ),
+          url('../../images/wedding.jpg');
+      }
+      &:nth-child(2) {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.61),
+            rgba(26, 26, 26, 0.815)
+          ),
+          url('../../images/model.jpg');
+      }
+      &:nth-child(3) {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.61),
+            rgba(26, 26, 26, 0.815)
+          ),
+          url('../../images/forest.jpg');
+      }
+    }
+  }
+}
+
+.projectBox {
+  height: 17.5rem;
+  color: rgb(212, 212, 212);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+
+  & h2 {
+    color: #dcf30b;
+    margin: 2rem 3rem;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+
+  & blockquote {
+    font-style: italic;
+    margin: 0 3rem;
+    font-size: 1.125rem;
+  }
+
+  h4 {
+    color: #dcf30b;
+  }
+
+  p {
+    color: #dcf30b;
+    font-weight: 300;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 3rem;
+    border-radius: 3px;
+    font-family: inherit;
+    color: #333;
+    background-color: #dcf30b;
+    border: 1px solid #dcf30b;
+  }
+}
+
+.project__details {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.project-extra {
+  &__info {
+    color: red;
+  }
+}
