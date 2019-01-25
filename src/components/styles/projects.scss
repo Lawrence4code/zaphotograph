@@ -45,11 +45,11 @@
   color: rgb(212, 212, 212);
   background-size: cover;
   background-position: center;
-  display: inline-block;
+  display: block;
 
   & h2 {
     color: #dcf30b;
-    margin: 2rem 3rem;
+    padding: 2rem 3rem;
     font-size: 2.5rem;
     letter-spacing: 1px;
   }
@@ -65,7 +65,6 @@
   }
 
   p {
-    color: #dcf30b;
     font-weight: 300;
   }
 
@@ -81,12 +80,24 @@
 }
 
 .project__details {
-  display: grid;
-  grid-template-columns: 4fr 1fr;
 }
 
 .project-extra {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+
   &__info {
     color: red;
+  }
+
+  &__images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    & div {
+      display: inline-block;
+      list-style: none;
+      width: 100%;
+    }
   }
 }

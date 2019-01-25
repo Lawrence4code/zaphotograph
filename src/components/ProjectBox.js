@@ -47,26 +47,26 @@ const ProjectBox = props => {
             </p>
           </li>
         </ul>
-        <ul className="project-extra-images">
-          <li>
+        <div className="project-extra__images">
+          <div>
             <img src={props.imageOne} />
-          </li>
-          <li>
+          </div>
+          <div>
             <img src={props.imageTwo} />
-          </li>
-          <li>
+          </div>
+          <div>
             <img src={props.imageThree} />
-          </li>
-          <li>
+          </div>
+          <div>
             <img src={props.imageFour} />
-          </li>
-          <li>
+          </div>
+          <div>
             <img src={props.imageFive} />
-          </li>
-          <li>
+          </div>
+          <div>
             <img src={props.imageSix} />
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
