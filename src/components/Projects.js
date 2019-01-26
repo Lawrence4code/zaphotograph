@@ -3,12 +3,12 @@ import React from 'react';
 import './styles/projects.scss';
 import ProjectBox from './ProjectBox';
 
-import imageOne from '../images/bg2.jpg';
-const imageTwo = 'https://dummyimage.com/300x230/000/fff';
-const imageThree = 'https://dummyimage.com/300x230/000/fff';
-const imageFour = 'https://dummyimage.com/300x230/000/fff';
-const imageFive = 'https://dummyimage.com/300x230/000/fff';
-const imageSix = 'https://dummyimage.com/300x230/000/fff';
+const imageOne = 'https://dummyimage.com/300x150/000/fff';
+const imageTwo = 'https://dummyimage.com/300x150/000/fff';
+const imageThree = 'https://dummyimage.com/300x150/000/fff';
+const imageFour = 'https://dummyimage.com/300x150/000/fff';
+const imageFive = 'https://dummyimage.com/300x150/000/fff';
+const imageSix = 'https://dummyimage.com/300x150/000/fff';
 
 const Projects = () => {
   const projectData = {
@@ -37,8 +37,8 @@ const Projects = () => {
     ],
     mapLocationText: [
       '51°40\'41.8"N 12°37\'35.0"E',
-      '51°40\'41.8"N 12°37\'35.0"E',
-      '51°40\'41.8"N 12°37\'35.0"E'
+      '51°40\'41.8"N12°37\'35.0"E',
+      '51°40\'41.8" N12°37\'35.0"E'
     ]
   };
   return (

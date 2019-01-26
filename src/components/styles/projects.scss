@@ -64,30 +64,59 @@
     color: #dcf30b;
   }
 
-  p {
-    font-weight: 300;
-  }
-
   button {
     padding: 0.5rem 1rem;
-    margin: 1.5rem 3rem;
+    margin: 2rem 3rem;
     border-radius: 3px;
     font-family: inherit;
     color: #333;
     background-color: #dcf30b;
     border: 1px solid #dcf30b;
   }
-}
 
-.project__details {
+  &__details {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+  }
 }
 
 .project-extra {
   display: grid;
   grid-template-columns: 2fr 5fr;
+  background-color: #5ab9ea;
 
   &__info {
-    color: red;
+    color: white;
+    font-weight: 500;
+    position: relative;
+
+    &--details {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-transform: uppercase;
+      font-weight: 700;
+      width: 80%;
+      & > div {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+
+        & p {
+          color: rgb(207, 207, 207);
+          & span {
+            color: white;
+          }
+        }
+
+        & a {
+          text-decoration: none;
+        }
+        & a {
+          color: white;
+        }
+      }
+    }
   }
 
   &__images {
@@ -98,6 +127,21 @@
       display: inline-block;
       list-style: none;
       width: 100%;
+
+      & img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
     }
   }
+}
+
+.something {
+  color: #5680e9;
+  color: #84eccb;
+  color: #5ab9ea;
+  color: #c1c8e4;
+  color: #8860d0;
 }
