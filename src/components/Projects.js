@@ -3,12 +3,12 @@ import React from 'react';
 import './styles/projects.scss';
 import ProjectBox from './ProjectBox';
 
-const imageOne = 'https://dummyimage.com/300x150/000/fff';
-const imageTwo = 'https://dummyimage.com/300x150/000/fff';
-const imageThree = 'https://dummyimage.com/300x150/000/fff';
-const imageFour = 'https://dummyimage.com/300x150/000/fff';
-const imageFive = 'https://dummyimage.com/300x150/000/fff';
-const imageSix = 'https://dummyimage.com/300x150/000/fff';
+import imageOne from '../images/wedding7.jpg';
+import imageTwo from '../images/wedding1.jpg';
+import imageThree from '../images/wedding2.jpg';
+import imageFour from '../images/wedding6.jpg';
+import imageFive from '../images/wedding4.jpg';
+import imageSix from '../images/wedding5.jpg';
 
 const Projects = () => {
   const projectData = {
@@ -64,6 +64,38 @@ const Projects = () => {
               imageFive={imageFive}
               imageSix={imageSix}
             />
+            <ProjectBox
+              projectTitle={projectData.projectTitles[0]}
+              projectQuote={projectData.projectQuote[0]}
+              clientName={projectData.projectClientName[0]}
+              projectType={projectData.projectType[0]}
+              noOfPhotos={projectData.noOfPhotos[0]}
+              noOfHours={projectData.noOfHours[0]}
+              mapLocationLink={projectData.mapLocationLink[0]}
+              mapLocationText={projectData.mapLocationText[0]}
+              imageOne={imageOne}
+              imageTwo={imageTwo}
+              imageThree={imageThree}
+              imageFour={imageFour}
+              imageFive={imageFive}
+              imageSix={imageSix}
+            />
+            <ProjectBox
+              projectTitle={projectData.projectTitles[0]}
+              projectQuote={projectData.projectQuote[0]}
+              clientName={projectData.projectClientName[0]}
+              projectType={projectData.projectType[0]}
+              noOfPhotos={projectData.noOfPhotos[0]}
+              noOfHours={projectData.noOfHours[0]}
+              mapLocationLink={projectData.mapLocationLink[0]}
+              mapLocationText={projectData.mapLocationText[0]}
+              imageOne={imageOne}
+              imageTwo={imageTwo}
+              imageThree={imageThree}
+              imageFour={imageFour}
+              imageFive={imageFive}
+              imageSix={imageSix}
+            />
           </div>
         </div>
       </div>
@@ -74,15 +106,34 @@ const Projects = () => {
 export default Projects;
 
 // <ProjectBox
-//   projectTitle={projectData.projectTitles[1]}
-//   projectQuote={projectData.projectQuote[1]}
-//   clientName={projectData.projectClientName[1]}
-//   projectType={projectData.projectType[1]}
+//   projectTitle={projectData.projectTitles[0]}
+//   projectQuote={projectData.projectQuote[0]}
+//   clientName={projectData.projectClientName[0]}
+//   projectType={projectData.projectType[0]}
+//   noOfPhotos={projectData.noOfPhotos[0]}
+//   noOfHours={projectData.noOfHours[0]}
+//   mapLocationLink={projectData.mapLocationLink[0]}
+//   mapLocationText={projectData.mapLocationText[0]}
+//   imageOne={imageOne}
+//   imageTwo={imageTwo}
+//   imageThree={imageThree}
+//   imageFour={imageFour}
+//   imageFive={imageFive}
+//   imageSix={imageSix}
 // />
-
 //   <ProjectBox
-//     projectTitle={projectData.projectTitles[2]}
-//     projectQuote={projectData.projectQuote[2]}
-//     clientName={projectData.projectClientName[2]}
-//     projectType={projectData.projectType[2]}
+//     projectTitle={projectData.projectTitles[0]}
+//     projectQuote={projectData.projectQuote[0]}
+//     clientName={projectData.projectClientName[0]}
+//     projectType={projectData.projectType[0]}
+//     noOfPhotos={projectData.noOfPhotos[0]}
+//     noOfHours={projectData.noOfHours[0]}
+//     mapLocationLink={projectData.mapLocationLink[0]}
+//     mapLocationText={projectData.mapLocationText[0]}
+//     imageOne={imageOne}
+//     imageTwo={imageTwo}
+//     imageThree={imageThree}
+//     imageFour={imageFour}
+//     imageFive={imageFive}
+//     imageSix={imageSix}
 //   />
