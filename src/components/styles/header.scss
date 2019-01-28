@@ -12,6 +12,17 @@
   height: 100vh;
   position: relative;
   text-align: center;
+
+  &__icon svg {
+    fill: rgb(216, 216, 216);
+    width: 56px;
+    height: 32px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      fill: #5680e9;
+    }
+  }
 }
 
 nav {

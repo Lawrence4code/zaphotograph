@@ -19,13 +19,8 @@ const Header = () => {
             <a href="#">Skills</a>
           </li>
           <li>
-            <a href="">
-              <Icon
-                icon={ICONS.BUBBLE}
-                width={56}
-                height={32}
-                color={iconColor}
-              />
+            <a href="" className="header__icon">
+              <Icon icon={ICONS.BUBBLE} />
             </a>
           </li>
           <li>
